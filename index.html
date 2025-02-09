@@ -1,10 +1,95 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>My Portfolio</title>
+    <style>
+        body {
+            background-color: #14121a;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 50px;
+            height: 100vh;
+            justify-content: center; 
+            align-items: center; 
+            flex-direction: column;
+        }
+        .container {
+            padding-top: 180px;
+            display: flex;
+            flex-direction: column; 
+            align-items: left;
+            justify-content: center;
+            max-width: 90%; 
+            margin-left: 300px;
+        }
+        .profile {
+            display: flex;
+            align-items: center;
+            flex-direction: row;
+            gap: 15px;
+        }
+        .profile img {
+            width: 450px;
+            height: 450px;
+            border-radius: 50%;
+            margin-left: 800px; 
+            margin-top: 300px; 
+            position: absolute; 
+            border: 5px solid #36215e;
+        }
+        h1 {
+            color: white;
+            font-size: 50px; 
+            margin: 0;
+            font-size: 4em;
+            text-align: left;
+        }
+        p {
+            text-align: left;
+            margin-top: 45px;
+            font-size: 30px;
+            color: #b5b5b5;
+            width: 600px; 
+            margin-left: 0px;
+            line-height: 1.5;
+        }
+        menu{
+            color: white;
+            font-size: 20px; 
+            margin-top: -650px;
+        }
+        menu a {
+            color: white; 
+            text-decoration: none; 
+            padding: 10px 20px;
+        }
+        menu a:hover {
+            background-color: #444;
+        }
+
+    </style>
 </head>
 <body>
-    <h1>test test test</h1>
+    <div class="container">
+        <div class="profile">
+            <h1>Hi, I'm <br>Aluse Zhou</h1>
+            <img src="https://images.unsplash.com/photo-1612170153139-6f881ff067e0?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Y2hpY2tlbnxlbnwwfHwwfHx8MA%3D%3D" alt="Profile Picture">
+        </div>
+        <p>
+            I am a second year computer science student at SFU. I am motivated to take on new challenges and explore new topics. With a positive attitude and midset towards growth,
+            I am eager to grow as in individual.
+        </p>
+    </div>
+
+    </div>
+    <menu>
+        <a href="index.html">Home</a>
+        <a href="projects.html">Projects</a>
+        <a href="experiences.html">Experiences</a>
+        <a href="contact.html">Contact</a>
+    </menu>
+    </div>
 </body>
 </html>

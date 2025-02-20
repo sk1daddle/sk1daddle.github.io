@@ -37,7 +37,7 @@
             margin-left: 800px; 
             margin-top: 300px; 
             position: absolute; 
-            border: 5px solid #36215e;
+            border: 5px solid #4e2eda;
         }
         h1 {
             color: white;
@@ -68,6 +68,29 @@
         menu a:hover {
             background-color: #444;
         }
+        .button-container {
+            display: flex;
+            justify-content: center; 
+            gap: 20px;
+            margin-top: 650px;
+            margin-right: 505px;
+        
+        }
+
+        .button {
+            display: inline-block;
+            padding: 20px 40px;
+            background: linear-gradient(to right, hsl(282, 45%, 47%), #2e95da); 
+            border-radius: 50px; 
+            color: white;
+            font-size: 23px;
+            text-align: left;
+            text-decoration: none;
+        }
+        .button:hover {
+            background: linear-gradient(to right, hsl(282, 51%, 31%), #1569a0); /* Reverse gradient on hover */
+        }
+
 
     </style>
 </head>
@@ -81,15 +104,32 @@
             I am a second year computer science student at SFU. I am motivated to take on new challenges and explore new topics. With a positive attitude and midset towards growth,
             I am eager to grow as in individual.
         </p>
+        
     </div>
 
+    <div>
+        <menu>
+            <a href="index.html">Home</a>
+            <a href="projects.html">Projects</a>
+            <a href="experiences.html">Experiences</a>
+            <a href="contact.html">Contact</a>
+        </menu>
     </div>
-    <menu>
-        <a href="index.html">Home</a>
-        <a href="projects.html">Projects</a>
-        <a href="experiences.html">Experiences</a>
-        <a href="contact.html">Contact</a>
-    </menu>
+
+    <div class = "button-container">
+        <a href="https://docs.google.com/document/d/1-Lq-6elw2dVSjtJU_adZiWiWS3ZL2cGiSvXxRRGGbsI/edit?usp=sharing" 
+        class="button">Resume</a>
+        <a href="https://github.com/sk1daddle" 
+        class="button">GitHub</a>
+        <a href="https://www.linkedin.com/in/al-zhou-a008302b0/" 
+        class="button">LinkedIn</a>
+        <a href="https://www.youtube.com/@crinmittartz6382" 
+        class="button">Youtube</a>
     </div>
+
+    
+
+
+
 </body>
 </html>
